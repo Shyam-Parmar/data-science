@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shyam Parmar — Data Scientist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+</head>
+<body>
+
+<nav id="nav">
+  <div class="nav-mark" id="navMark"></div>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-inner" id="heroInner">
+    <span class="eyebrow" id="heroEyebrow"></span>
+    <h1 id="heroHeadline"></h1>
+    <p id="heroSub"></p>
+  </div>
+</section>
+
+<div class="kpi-strip" id="kpiStrip"></div>
+
+<section id="about">
+  <div class="about-grid">
+    <div>
+      <span class="eyebrow section-eyebrow">About</span>
+      <h2 id="aboutHeading"></h2>
+      <div id="aboutBody"></div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="timeline-wrap">
+    <span class="eyebrow section-eyebrow">Experience</span>
+    <h2>Where I've worked.</h2>
+    <div class="timeline-track">
+      <div class="timeline-line"></div>
+      <div class="timeline-progress" id="tProgress"></div>
+      <div id="timelineItems"></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <span class="eyebrow section-eyebrow">Toolkit</span>
+  <h2 style="font-size:34px;font-weight:500;">What I build with</h2>
+  <div class="skills-grid" id="skillsGrid"></div>
+</section>
+
+<section id="projects">
+  <div class="projects-head">
+    <div>
+      <span class="eyebrow section-eyebrow">Projects</span>
+      <h2>Things I built to learn something new</h2>
+    </div>
+    <a id="projectsLink" target="_blank" rel="noopener"></a>
+  </div>
+  <div class="proj-grid" id="projGrid"></div>
+</section>
+
+<section id="contact" class="contact">
+  <span class="eyebrow section-eyebrow">Contact</span>
+  <h2 id="contactHeading"></h2>
+  <div class="contact-links" id="contactLinks"></div>
+</section>
+
+<footer>
+  <span id="footerLeft"></span>
+  <span id="footerRight"></span>
+</footer>
+
+<script src="content.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
