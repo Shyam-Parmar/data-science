@@ -14,8 +14,9 @@ const PORTFOLIO_DATA = {
   navName: "Shyam Parmar",
 
   hero: {
-    eyebrow: "Data Scientist · Tampa, FL",
-    headline: 'I turn raw data into <em>decisions people act on</em>.',
+    name: "Shyam Parmar",
+    title: "Data Scientist",
+    tagline: 'I turn raw data into <em>decisions people act on</em>.',
     sub: "Building pricing engines, recommender systems, forecasting models, and BI reports. I like solving problems that help stakeholders make decisions or building systems that increase efficiency."
   },
 

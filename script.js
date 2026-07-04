@@ -11,8 +11,9 @@ function render() {
   document.getElementById('navMark').textContent = d.navName.toUpperCase();
   document.title = `${d.navName} — Data Scientist`;
 
-  document.getElementById('heroEyebrow').textContent = d.hero.eyebrow;
-  document.getElementById('heroHeadline').innerHTML = d.hero.headline;
+  document.getElementById('heroName').textContent = d.hero.name;
+  document.getElementById('heroTitle').textContent = d.hero.title;
+  document.getElementById('heroTagline').innerHTML = d.hero.tagline;
   document.getElementById('heroSub').textContent = d.hero.sub;
 
   document.getElementById('kpiStrip').innerHTML = d.kpis.map(k => `
