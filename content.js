@@ -83,7 +83,8 @@ const PORTFOLIO_DATA = {
       { label: "shyam@parmar.com", href: "mailto:shyam@parmar.com" },
       { label: "GitHub", href: "https://github.com/Shyam-Parmar", external: true },
       { label: "Medium", href: "https://medium.com/@shyamparmar_88281", external: true },
-      { label: "LinkedIn", href: "#", external: true }
+      { label: "LinkedIn", href: "#", external: true },
+      { label: "Download Resume", href: "Shyam_Parmar_Resume_DS.pdf", download: true }
     ]
   },
 

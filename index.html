@@ -384,7 +384,8 @@ const PORTFOLIO_DATA = {
       { label: "shyam@parmar.com", href: "mailto:shyam@parmar.com" },
       { label: "GitHub", href: "https://github.com/Shyam-Parmar", external: true },
       { label: "Medium", href: "https://medium.com/@shyamparmar_88281", external: true },
-      { label: "LinkedIn", href: "#", external: true }
+      { label: "LinkedIn", href: "#", external: true },
+      { label: "Download Resume", href: "Shyam_Parmar_Resume_DS.pdf", download: true }
     ]
   },
 
@@ -400,7 +401,8 @@ const PORTFOLIO_DATA = {
 
 function linkHTML(l) {
   const target = l.external ? ' target="_blank" rel="noopener"' : '';
-  return `<a href="${l.href}"${target}>${l.label}</a>`;
+  const download = l.download ? ' download' : '';
+  return `<a href="${l.href}"${target}${download}>${l.label}</a>`;
 }
 
 function render() {

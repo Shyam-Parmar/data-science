@@ -2,7 +2,8 @@
 
 function linkHTML(l) {
   const target = l.external ? ' target="_blank" rel="noopener"' : '';
-  return `<a href="${l.href}"${target}>${l.label}</a>`;
+  const download = l.download ? ' download' : '';
+  return `<a href="${l.href}"${target}${download}>${l.label}</a>`;
 }
 
 function render() {
