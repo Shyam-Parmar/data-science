@@ -9,7 +9,7 @@ const SITE = {
   meta: {
     name: "Shyam Parmar",
     role: "Data Scientist",
-    tagline: "Sports Analytics · Machine Learning · Revenue Science",
+    tagline: "Sports Analytics · Machine Learning · Revenue Science · NLP/LLM",
     location: "Tampa, FL",
     modelVersion: "shyam-parmar-v4.2", // just for the hero flavor text
   },
