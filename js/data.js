@@ -10,7 +10,7 @@ const SITE = {
     name: "Shyam Parmar",
     role: "Data Scientist",
     tagline: "Sports Analytics · Machine Learning · Revenue Science · NLP/LLM",
-    location: "Tampa, FL",
+    location: "Florida",
     modelVersion: "shyam-parmar-v4.2", // just for the hero flavor text
   },
 
