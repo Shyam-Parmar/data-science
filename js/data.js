@@ -9,8 +9,8 @@ const SITE = {
   meta: {
     name: "Shyam Parmar",
     role: "Data Scientist",
-    tagline: "Sports Analytics · Machine Learning · Revenue Science · NLP/LLM",
-    location: "Florida",
+    tagline: "Sports Analytics · Machine Learning · Revenue Science",
+    location: "Tampa, FL",
     modelVersion: "shyam-parmar-v4.2", // just for the hero flavor text
   },
 
@@ -31,10 +31,10 @@ const SITE = {
       "Off the clock I chase the same instincts through football data, Formula 1 telemetry, and whatever else can be scraped, modeled, and charted."
     ],
     facts: [
-      { label: "based_in", value: "Tampa, FL" },
+      { label: "based_in", value: "Florida" },
       { label: "focus", value: "Pricing · Forecasting · CRM" },
       { label: "education", value: "M.S. Business Analytics, USF" },
-      { label: "stack", value: "Python · SQL · R · Azure" },
+      { label: "stack", value: "Python · SQL · Snowflake · PowerBI" },
     ],
   },
 
@@ -44,8 +44,8 @@ const SITE = {
     { value: 36, suffix: "%", label: "Revenue lift from ML pricing", decimals: 0 },
     { value: 800, suffix: "K+", label: "Fans segmented across channels", decimals: 0 },
     { value: 90, suffix: "%+", label: "Season ticket retention (renewal models)", decimals: 0 },
-    { value: 9, suffix: "", label: "Ticketed sports covered end to end", decimals: 0 },
-    { value: 15, suffix: "K+", label: "Leads captured via embedded forms", decimals: 0 },
+    { value: 30, suffix: "%", label: "RMSE Improved on forecasting models", decimals: 0 },
+    { value: 94, suffix: "%", label: "Cut report time with Pyodide tool (1.5 hrs to under 5 min)", decimals: 0 },
     { value: 96, suffix: "%", label: "Survey processing time cut by NLP + LLMs", decimals: 0 },
   ],
 
@@ -103,8 +103,8 @@ const SITE = {
       category: "Programming, ML & AI",
       axes: [
         { name: "Python", score: 95 },
-        { name: "SQL", score: 92 },
-        { name: "R", score: 80 },
+        { name: "SQL", score: 85 },
+        { name: "R", score: 50 },
         { name: "ML / Boosting", score: 90 },
         { name: "NLP / LLMs", score: 85 },
         { name: "Deep Learning", score: 75 },
@@ -113,32 +113,32 @@ const SITE = {
     {
       category: "Analytics & BI",
       axes: [
-        { name: "Power BI", score: 92 },
-        { name: "Tableau", score: 85 },
-        { name: "Excel Modeling", score: 90 },
-        { name: "Google Analytics", score: 75 },
+        { name: "Power BI", score: 85 },
+        { name: "Tableau", score: 75 },
+        { name: "Excel Modeling", score: 95 },
+        { name: "Google Analytics", score: 70 },
         { name: "Storytelling", score: 88 },
       ],
     },
     {
       category: "Engineering & Infrastructure",
       axes: [
-        { name: "Azure", score: 78 },
-        { name: "Apache Spark", score: 72 },
+        { name: "Azure", score: 75 },
+        { name: "Apache Spark", score: 62 },
         { name: "Flask / Streamlit", score: 80 },
-        { name: "Snowflake", score: 75 },
-        { name: "PostgreSQL", score: 82 },
-        { name: "Hadoop", score: 65 },
+        { name: "Snowflake", score: 80 },
+        { name: "PostgreSQL", score: 85 },
+        { name: "Hadoop", score: 50 },
       ],
     },
     {
       category: "CRM & Data Platforms",
       axes: [
-        { name: "Salesforce", score: 88 },
-        { name: "FanThreeSixty", score: 90 },
-        { name: "Qualtrics", score: 85 },
-        { name: "Archtics", score: 80 },
-        { name: "Data Governance", score: 82 },
+        { name: "Salesforce", score: 75 },
+        { name: "FanThreeSixty", score: 95 },
+        { name: "Qualtrics", score: 90 },
+        { name: "Archtics", score: 85 },
+        { name: "Data Governance", score: 85 },
       ],
     },
   ],
